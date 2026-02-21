@@ -3,8 +3,7 @@ import sqlite3
 import random
 import re
 import os
-TOKEN = os.environ["8438365476:AAEv0q8nqIq-vZIBwfYo4LEaxTtQLa25GoE"]
-
+TOKEN = os.environ["TOKEN"]
 TOKEN = "8438365476:AAEv0q8nqIq-vZIBwfYo4LEaxTtQLa25GoE"
 
 ADMIN_IDS = [6797155121, 6501059047]
