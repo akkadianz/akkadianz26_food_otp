@@ -18,9 +18,9 @@ def generate_otp():
 # REGISTER
 # =========================
 
-def register(update, context):
+def reg(update, context):
     if len(context.args) != 1:
-        update.message.reply_text("❗ Use: /register STUDENT_ID")
+        update.message.reply_text("❗ Use: /reg STUDENT_ID")
         return
 
     reg_id = context.args[0].strip().upper()
@@ -107,7 +107,7 @@ def redeem_command(update, context):
 updater = Updater(TOKEN, use_context=True)
 dp = updater.dispatcher
 
-dp.add_handler(CommandHandler("register", register))
+dp.add_handler(CommandHandler("reg", reg))
 dp.add_handler(CommandHandler("redeem", redeem_command))
 dp.add_handler(MessageHandler(Filters.text & ~Filters.command, otp_message))
 
