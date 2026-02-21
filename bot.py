@@ -2,6 +2,8 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import sqlite3
 import random
 import re
+import os
+TOKEN = os.environ["8438365476:AAEv0q8nqIq-vZIBwfYo4LEaxTtQLa25GoE"]
 
 TOKEN = "8438365476:AAEv0q8nqIq-vZIBwfYo4LEaxTtQLa25GoE"
 
