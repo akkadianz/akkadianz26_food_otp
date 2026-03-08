@@ -1,9 +1,7 @@
 import sqlite3
 
 STUDENT_IDS = [
-    "921623106034",
-    "921623106088",
-    "921623106085"
+    "1","2","3","4","5"
 ]
 
 conn = sqlite3.connect("food.db")
