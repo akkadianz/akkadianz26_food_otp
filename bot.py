@@ -6,7 +6,7 @@ import os
 TOKEN = os.environ["TOKEN"]
 TOKEN = "8438365476:AAEv0q8nqIq-vZIBwfYo4LEaxTtQLa25GoE"
 
-ADMIN_IDS = [6797155121, 6501059047]
+ADMIN_IDS = [6797155121, 6501059047, 7898831751, 6510962083]
 
 conn = sqlite3.connect("food.db", check_same_thread=False)
 c = conn.cursor()
